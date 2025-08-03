@@ -1,3 +1,6 @@
+
+# NOTE: pip install requests packaging PyQt5
+
 import sys
 import requests
 from packaging import version
