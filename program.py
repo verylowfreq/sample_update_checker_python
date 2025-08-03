@@ -72,8 +72,8 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.central_widget)
         layout = QVBoxLayout(self.central_widget)
 
-        self.version_label = QLabel(f"Current Version: {CURRENT_VERSION}")
-        self.status_label = QLabel("Checking for updates...")
+        self.version_label = QLabel(f"現在のバージョン: {CURRENT_VERSION}")
+        self.status_label = QLabel("更新を確認中...")
         layout.addWidget(self.version_label)
         layout.addWidget(self.status_label)
 
